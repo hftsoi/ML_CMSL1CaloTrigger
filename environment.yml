@@ -87,7 +87,6 @@ dependencies:
   - jupyter_client=6.1.7=py_0
   - jupyter_core=4.9.2=py39h2804cbe_0
   - jupyterlab_pygments=0.1.2=py_0
-  - keras=2.6.0=pyhd8ed1ab_1
   - keras-preprocessing=1.1.2=pyhd8ed1ab_0
   - keras-tuner=1.1.0=pyhd8ed1ab_0
   - kiwisolver=1.4.0=py39h2c803a9_0
@@ -174,7 +173,6 @@ dependencies:
   - pysocks=1.7.1=py39h2804cbe_4
   - python=3.9.12=hfc7342c_1_cpython
   - python-dateutil=2.8.1=py_0
-  - python-flatbuffers=1.12=pyhd8ed1ab_1
   - python_abi=3.9=2_cp39
   - pytz=2022.1=pyhd8ed1ab_0
   - pyu2f=0.1.5=pyhd8ed1ab_0
@@ -228,11 +226,19 @@ dependencies:
   - zlib=1.2.11=h90dfc92_1014
   - zstd=1.5.2=h861e0a7_0
   - pip:
+    - dm-tree==0.1.7
     - flatbuffers==2.0
+    - keras==2.8.0
+    - kt-legacy==1.0.4
     - libclang==13.0.0
+    - networkx==2.8
     - numpy==1.22.3
+    - parse==1.6.5
+    - pyparser==1.0
+    - qkeras==0.9.0
     - tensorboard==2.8.0
     - tensorflow-macos==2.8.0
     - tensorflow-metal==0.4.0
+    - tensorflow-model-optimization==0.7.2
     - tf-estimator-nightly==2.8.0.dev2021122109
 prefix: /Users/ho-fung/miniforge3/envs/tf_gpu
